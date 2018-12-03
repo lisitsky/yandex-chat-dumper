@@ -1,0 +1,16 @@
+{
+  "name":"Yandex Chat dumper",
+  "description": "Simple Heroku app to dump requests from Yandex.Chat",
+  "keywords": [
+    "yandex",
+    "chat",
+    "golang"
+  ],
+  "repository": "https://github.com/lisitsky/yandex-chat-dumper",
+
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-go.git"
+    }
+  ]
+}
